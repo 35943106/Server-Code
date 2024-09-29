@@ -12,7 +12,7 @@
    Config the display panel and touch panel in gfx_conf.h
  ******************************************************************************/
 #include "gfx_conf.h"
-
+//##
 static lv_disp_draw_buf_t draw_buf;
 static lv_color_t disp_draw_buf1[screenWidth * screenHeight / 8];
 static lv_color_t disp_draw_buf2[screenWidth * screenHeight / 8];
